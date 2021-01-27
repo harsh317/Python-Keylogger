@@ -13,3 +13,4 @@ A Keylogger made using Python that catches microphone ,keylogs ,screenshots , cl
 
 ## Note
 - This program was made in only 40 min and without any idea what i am making.This program surely needs many improvements.
+- Enterd only few default files.If a files is missing it will create on its own
